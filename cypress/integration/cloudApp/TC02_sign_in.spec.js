@@ -21,6 +21,7 @@ describe("Log In flow", () => {
         cy.get('[data-testid="regular-login-password"]').type(Cypress.env('valid_password'))
         cy.get('input[type="submit"]').click()
         expect(cy.get('.alert-message').contains("Welcome back!"), "User is not in Home Page")
+        
     })
     
 

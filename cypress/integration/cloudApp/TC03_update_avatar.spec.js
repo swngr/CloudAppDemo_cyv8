@@ -21,6 +21,7 @@ describe("Update avatar flow", () => {
         cy.get('[data-testid="settings-about-you-profile-field"]').select("engineering")
         cy.get('[data-testid="onboarding-submit-about-you-form"]').click()
         cy.contains('.alert-success',"Account updated successfully").should('exist')
+        
 
     })
 

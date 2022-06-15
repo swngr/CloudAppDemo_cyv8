@@ -39,6 +39,7 @@ describe("Sign Up & Sign Out flows", () => {
         cy.get('[data-testid="dropdown-link-sign_out"]').click()
         cy.contains('.alert-success', "Successfully Logged Out").should('exist') 
         
+        
     })
 
 
