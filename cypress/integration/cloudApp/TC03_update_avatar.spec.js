@@ -1,6 +1,7 @@
 /// <reference types = "cypress"/>
 
 
+
 describe("Update avatar flow", () => {
     it("Should update name, company and role", () => {
         

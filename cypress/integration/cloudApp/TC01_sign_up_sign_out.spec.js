@@ -1,7 +1,11 @@
 /// <reference types = "cypress"/>
 
 
-
+  beforeEach(() => {    
+    cy.visit("/")
+    cy.get('#login-dblue').click()
+    cy.get('a[href="/signup"]').click()
+  })  
 
 describe("Sign Up & Sign Out flows", () => {    
 

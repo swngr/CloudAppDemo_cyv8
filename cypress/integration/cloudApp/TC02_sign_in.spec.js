@@ -1,6 +1,12 @@
 /// <reference types = "cypress" />
 
   
+describe("Log In flow", () => {
+
+    beforeEach(() => {
+        cy.visit("/")
+        cy.get('#login-dblue').click()
+      })
 
     
     it("Should not log in user with invalid email / password combination", () => {
