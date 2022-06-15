@@ -1,9 +1,5 @@
 /// <reference types = "cypress"/>
 
-Cypress.on('uncaught:exception', (err, runnable) => {
-    return false;
-  });
-
 
 describe("Update avatar flow", () => {
     it("Should update name, company and role", () => {
