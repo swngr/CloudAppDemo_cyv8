@@ -1,0 +1,12 @@
+{
+    "chromeWebSecurity": false,    
+    "experimentalSessionSupport": true,
+    
+    "baseUrl": "https://www.getcloudapp.com/",
+
+    "env" : {
+        "valid_username": "asdf@13.com",
+        "valid_password": "Test!1234"
+    }
+    
+}
